@@ -1,4 +1,4 @@
-## Wordpress LoadBalancé
+## BRIEF10 : DOCKER + AZURE = ❤️
 
 création : 31/08/2022
 groupe 5 : Alain, Driton, Yvette
