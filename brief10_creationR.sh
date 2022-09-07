@@ -29,6 +29,7 @@ createApp(){
     az webapp create --resource-group $group --plan $appserviceplanname --name $webappname --deployment-container-image-name alaincloud/mediawiki:stable
     echo " creating slots"
     # reste à faire
+    az webapp deployment slot create --name $webappname --resource-group $group --slot DEV --deployment-container-image-name -i alaincloud/mediawiki:dev3
 
     #echo " modif WP-config "
     #az webapp config appsettings set -n alainb8wap -g $group --settings MARIA_DB_HOST="alainb8-mdb.mariadb.database.azure.com" MARIA_DB_USER="$username"  MARIA_DB_PASSWORD="$password"  WEBSITES_ENABLE_APP_SERVICE_STORAGE=TRUE
