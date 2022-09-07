@@ -27,7 +27,7 @@ liens sripts: https://github.com/Alain-Sardin/brief10/blob/main/brief10_creation
 > - Installation de Apache et PHP sur Debian11
 > - Installation de Wordpress sur les vms
 > - Azure Monitor
-> - Test
+> - Testgit ihljlkjljlkjljl
 > - Script de création ressources Azure
 > - Script d'installation Lamp Wordpress
 > - Problèmes rencontrés
